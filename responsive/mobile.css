@@ -1,0 +1,173 @@
+/*body {
+    /*background-color: rgb(255, 166, 0);
+}*/
+
+/*hide floating phone*/
+.phone-ui { 
+    display: none;
+}
+
+/*show hidden phone*/
+.hidden-phone {
+    /*width: calc(781px - 25vw);
+    height: calc(723px - 25vw);*/
+    width: calc(421px -100px);
+    height: calc(363px - 100px);
+    display: block;
+    margin: 0px auto;
+}
+
+/****************************************/
+/*hero btn*/
+.access-btn {
+    min-width: 30%;
+}
+
+/*hero input*/
+.email-input {
+    min-width: 50%;
+}
+
+/*center CTA*/
+.cta-cover {
+    display: flex;
+    justify-content: center;
+}
+
+/*center hero texts*/
+.hero-main {
+    font-size: calc(3vw + 15px);
+    width: 100%;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.hero-sub {
+    font-size: calc(1.3vw + 10px);
+    width: 100%;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.herobar {
+    padding-left: 0%;
+    min-height: 300px;
+}
+
+/*access btn*/
+.access-btn {
+    font-size: 13px;
+}
+
+/*flex wrap on mobile*/
+.three-cover {
+    flex-wrap: wrap;
+    padding: 0px 5%;
+}
+
+/*video screen*/
+.video-screen {
+    width: 80%;
+    height: 50%;
+}
+
+.how-sub {
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+/*EXPOLRE*/
+.explore-main {
+    font-size: 8vw;
+}
+
+.explore-icons {
+    display: grid;
+    justify-content: space-around;
+    margin: 0px 10%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.explore-icons > div {
+    margin-top: 50px;
+}
+
+/* see all categories */
+.explore-side {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*earn segment*/
+.earn-cover {
+    width: 90%;
+    padding: 20px 0px;
+    top: -140px;
+}
+
+.earn-main { 
+    font-size: 25px;
+}
+
+.earn-sub {
+    font-size: 16px;
+    width: 90%;
+}
+
+.cta-cover2 {
+    margin-top: 30px;
+}
+
+.access-btn2 {
+    font-size: 12px;
+}
+
+.email-input2 {
+    font-size: 12px;
+}
+
+/*explore -- reduce padding bottom*/
+.explore {
+    padding-bottom: 150px;
+}
+
+/*flexwrap faq*/
+/*FAQ*/
+.faq-box {
+    width: 90%;
+}
+
+/*faq sub*/
+.faq-sub {
+    width: 90%;
+}
+
+/*show*/
+.toggle {
+    display: block;
+}
+
+/*hide menu on mobile*/
+.menu-hide-mobile {
+    display: none;
+}
+
+/*hide menu on load*/
+.toggle-cover {
+    display: none;
+}
+
+/*margin-important*/ 
+.nav-important {
+    margin: 0px!important;
+    padding: 0px!important;
+}
+
+/*margin to image*/
+body > div.nav-container > nav > div > div > img {
+    margin-left: 20px;
+}
