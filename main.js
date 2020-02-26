@@ -12,3 +12,15 @@ function hamburger() {
      }
      
 }
+
+/*scroll effect*/
+document.querySelector('#contactid').addEventListener('click', scrolldown);
+
+function scrolldown() {
+    window.scroll({
+        top: 100,
+        left: 0,
+        duration: 1000,
+        behavior: 'smooth'
+    });
+}
