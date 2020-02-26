@@ -200,7 +200,7 @@ ul li {
 /*video screen*/
 .video-screen {
     width: 50%;
-    height: 50%;
+    height: 350px;
     /*background-color: rgb(4, 196, 90);*/
     margin: 30px auto;
 }

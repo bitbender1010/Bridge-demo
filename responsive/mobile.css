@@ -194,3 +194,13 @@ body > div.nav-container > nav > div > div > img {
         background-color: red;
     }*/
 }
+
+
+/*video mobile*/
+/*video screen*/
+.video-screen {
+    width: 80%!important;
+    height: 300px;
+    /*background-color: rgb(4, 196, 90);*/
+    margin: 30px auto;
+}
