@@ -26,24 +26,10 @@ function scrolldown() {
 }
 
 /*growserf*/
-// Check to see if GrowSurf is available
-if(!window.growsurf) {
-    // Listen and wait for the Growsurf Universal Code to initialize
-    window.addEventListener('grsfReady', () => {
-      console.log('GrowSurf is Ready!');
-      // You code goes here.... 
-    });
-  } else {
-    console.log('GrowSurf is Already Available');
-    // You code goes here....
-  }// Check to see if GrowSurf is available
-if(!window.growsurf) {
-  // Listen and wait for the Growsurf Universal Code to initialize
-  window.addEventListener('grsfReady', () => {
-    console.log('GrowSurf is Ready!');
-    // You code goes here.... 
-  });
-} else {
-  console.log('GrowSurf is Already Available');
-  // You code goes here....
+let accessLink = document.querySelector('#access');
+accessLink.addEventListener('click', redirect);
+
+function redirect() {
+    accessLink.setAttribute("href", "http://bit.ly/joinbridgetoday");
+    /*alert("acessed");*/
 }
