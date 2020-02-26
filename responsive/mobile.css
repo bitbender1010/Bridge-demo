@@ -204,3 +204,8 @@ body > div.nav-container > nav > div > div > img {
     /*background-color: rgb(4, 196, 90);*/
     margin: 30px auto;
 }
+
+/*increase font*/
+ul li {
+    font-size: 18px;
+}
