@@ -1,0 +1,472 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation {  
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+/*logo styles*/
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    height: 45px;
+}
+
+/*list item styles*/
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px!important;
+    color: white;
+    font-weight: bold;
+}
+
+ul li {
+    margin: 0px 10px;
+}
+
+/*nav bg color*/
+.nav-container {
+    background-color: #007CFE;
+}
+
+/*button*/
+.contact {
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    border: 0px;
+    outline: none;
+    background-color: white;
+    color: #007CFE;
+    font-weight: bold;
+}
+
+/*hero text*/
+.hero-main {
+    font-size: calc(3vw + 10px);
+    font-weight: bold;
+    color: #007CFE;
+    width: 65%;
+}
+
+.hero-sub {
+    font-size: calc(1.3vw + 10px);
+    width: 50%;
+}
+
+.herobar {
+    padding-top: 20px;
+    padding-left: 5%;
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    /*background-color: violet;*/
+    z-index: 0;
+}
+
+/*CTA*/
+.email-input, .email-input2 {
+    width: 30%;
+    height: 40px;
+    border: 2px solid lightgray;
+    box-shadow: 5px 5px 5px lightgray;
+    text-indent: 10px;
+}
+
+/*extend input size in earn*/
+.email-input2 {
+    width: 50%;
+}
+
+/*access btn*/
+.access-btn, .access-btn2 {
+    height: 40px;
+    min-width: 15%;
+    background-color: #F68A1E;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 5px lightgray;
+    position: relative;
+    left: -10px;
+}
+
+.cta-cover, .cta-cover2 {
+    margin-top: 50px;
+}
+
+/*floating phone*/
+.phone-ui {
+    /*width: calc(781px - 25vw);
+    height: calc(723px - 25vw);*/
+    width: calc(350px - 1vw);
+    height: calc(394.12px - 1vw);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/*hide hidden phone -- in desktop mode*/
+.hidden-phone {
+    display: none;
+}
+
+/*z-index for hero lements*/
+.z-upper, .z-upper2 {
+    z-index: 10;
+}
+
+/*step icons*/
+.step-icons {
+    display: flex;
+    margin: 0px auto;
+}
+
+/*add margin to 3 icons box*/
+.margin {
+    margin: 10px auto;
+}
+
+.step-main {
+    font-weight: bold;
+    font-size: 20px;
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+/*step sub*/
+.step-sub {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center; 
+}
+
+/*three step cover*/
+.three-cover {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10%;
+}
+
+/*res-sizng 3 icons*/
+.resize-one {
+    width: calc(222px  - 100px);
+    height: calc(274px - 100px);
+}
+
+.resize-two {
+    width: calc(302px  - 104px);
+    height: calc(278px - 104);
+}
+
+.resize-three {
+    width: calc(311px  - 135px);
+    height: calc(311px - 135px);
+}
+
+/*how does bridge work*/
+.how {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #746F6B;
+}
+
+.how-sub {
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.how-container {
+    margin-top: 50px;
+}
+
+/*video screen*/
+.video-screen {
+    width: 50%;
+    height: 50%;
+    /*background-color: rgb(4, 196, 90);*/
+    margin: 30px auto;
+}
+
+.video-screen img {
+    width: 100%;
+    height: 100%;
+}
+
+/*explore*/
+/*EXPLORE*/
+
+.explore {
+    margin-top: 50px;
+    background-color: #007CFE;
+    padding-bottom: 200px;
+}
+.explore-main {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    padding-top: 50px;
+}
+
+.explore-icons {
+    display: grid;
+    column-gap: 10px;
+    justify-content: space-around;
+    margin: 0px 10%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.icon-cover {
+    width: 60px;
+    height: 60px;
+    margin: 0px auto;
+}
+
+.icon-cover img {
+    width: 100%;
+    height: 100%;
+}
+
+.icon-text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+.explore-icons > div {
+    margin-top: 100px;
+}
+
+/* see all categories */
+.explore-side {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    color: #1D4354;
+    padding-bottom: 10px;
+}
+
+.explore-side span a{
+    color: #1D4354;
+    text-decoration: none;
+}
+
+/*center email CTA in EARN*/
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/*earn segment*/
+.earn-cover {
+    border: 2px solid lightgray;
+    box-shadow: 5px 5px 5px lightgray;
+    width: 50%;
+    margin: 0px auto;
+    padding: 40px 0px;
+    position: relative;
+    top: -180px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/*Earn on bridge*/
+.earn-main {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #746F6B;
+}
+
+.earn-sub {
+    text-align: center;
+    font-size: 20px;
+    width: 70%;
+    margin: 0px auto;
+}
+
+/*FAQ*/
+.faq-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0px 5%;
+}
+
+.faq-box {
+    border: 2px solid lightgray;
+    width: 40%;
+    height: 180px;
+    padding: 20px;
+    overflow: scroll;
+    box-shadow: 5px 5px 5px lightgray;
+    margin: 20px 0px;
+    overflow-x: hidden;
+}
+
+.faq-question {
+    color: #F68A1E;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.faq-answer {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.faq-main {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #746F6B;
+    position: relative;
+    top: -50px;
+}
+
+/*faq sub*/
+.faq-sub {
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    margin: 0px auto;
+    position: relative;
+    top: -50px;
+}
+
+/*contact style*/
+.contact-tab {
+    text-align: center;
+}
+
+.copyright {
+    margin: 10px 0px;
+}
+
+.contact-main {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #746F6B;
+    margin-top: 100px;
+}
+
+/*unstyle links*/
+body > div.nav-container > nav > div > ul > a > li {
+    color: white;
+    text-decoration: none;
+}
+body > div.nav-container > nav > div > ul > a {
+    text-decoration: none;
+}
+
+/*togggle icon*/
+.toggle {
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 15px 30px;
+}
+
+body {
+    position: relative;
+}
+.toggle .a {
+    background-color: white;
+    width: 100%;
+    height: 4px;
+    margin: 5px;
+}
+
+.toggle .b {
+    background-color: white;
+    width: 50%;
+    height: 4px;
+    margin: 5px;
+}
+
+.toggle .c {
+    background-color: white;
+    width: 80%;
+    height: 4px;
+    margin: 5px;
+}
+
+.toggle-list {    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+    box-shadow: 10px 5px 5px lightgrey;
+}
+
+.toggle-list a {
+    background: #dee2e6;
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 2px;
+}
+
+.toggle-list a:hover, .toggle-list a:active {
+    background: #007CFE;
+    color: white;
+    text-decoration: none;
+}
+
+/*margin 1st child*/
+.toggle-list a:first-child:active , .toggle-list a:first-child:hover {
+    margin-top: 2px!important;
+}
+/**/
+.contact-mobile {
+        width: 200px;
+}
+
+/*hide toggle*/
+.toggle, .toggle-cover {
+    display: none;
+}
+
+/*show and hide*/
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
