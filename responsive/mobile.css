@@ -209,3 +209,8 @@ body > div.nav-container > nav > div > div > img {
 ul li {
     font-size: 18px;
 }
+
+/*increase input placeholder fnt*/
+.cta-cover input {
+    font-size: 18px;
+}
