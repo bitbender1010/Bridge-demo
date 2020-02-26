@@ -190,6 +190,15 @@ body > div.nav-container > nav > div > div > img {
         height: calc(394.12px - 50vw);
     }
 
+    /*increase input placeholder fnt*/
+.cta-cover input,  .cta-cover button{
+    font-size: 12px!important;
+}
+
+.cta-cover2 input,  .cta-cover2 button{
+    font-size: 10px!important;
+}
+
     /*body {
         background-color: red;
     }*/
@@ -211,10 +220,27 @@ ul li {
 }
 
 /*increase input placeholder fnt*/
-.cta-cover input {
+.cta-cover input,  .cta-cover button{
+    font-size: 16px;
+}
+
+.cta-cover2 input,  .cta-cover2 button{
+    font-size: 14px;
+}
+
+
+.cta-cover2 button{
+    padding: 0px 20px;
+}
+.step-sub {
     font-size: 18px;
 }
 
-.step-sub {
-    font-size: 18px;
+.logo {
+    margin-left: 10px;
+}
+
+.contact-tab {
+    text-align: center;
+    font-size: 16px;
 }
