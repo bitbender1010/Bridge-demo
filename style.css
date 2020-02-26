@@ -33,6 +33,7 @@ ul {
 
 ul li {
     margin: 0px 10px;
+    font-size: 18px;
 }
 
 /*nav bg color*/
@@ -359,6 +360,7 @@ ul li {
 /*contact style*/
 .contact-tab {
     text-align: center;
+    font-size: 18px;
 }
 
 .copyright {
@@ -470,4 +472,21 @@ body {
     height: 50px;
     margin: 5px;
     color: red!important;
+}
+
+/*increase input placeholder fnt*/
+.cta-cover input,  .cta-cover button{
+    font-size: 18px;
+}
+
+.cta-cover2 input,  .cta-cover2 button{
+    font-size: 16px;
+}
+
+
+.cta-cover2 button{
+    padding: 0px 20px;
+}
+.step-sub {
+    font-size: 20px;
 }
