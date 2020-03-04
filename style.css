@@ -540,3 +540,6 @@ body {
     color: #746F6B;
 }
    
+.render a:hover {
+    text-decoration: none;
+}
