@@ -244,3 +244,23 @@ ul li {
     text-align: center;
     font-size: 16px;
 }
+/*CTA*/
+.CTA {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+/*center OR*/
+.CTA .or {
+    display: block;
+    text-align: center;
+}
+
+.post, .render {
+    align-self: center;
+}
+
+.or {
+    margin: 5px 0px;
+}
