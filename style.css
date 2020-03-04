@@ -544,7 +544,7 @@ body {
     text-decoration: none;
 }
 
-a .render:focus {
+a .render:focus, a .render:active {
     outline: none;
     border: 2px solid #F68A1E;
 }
