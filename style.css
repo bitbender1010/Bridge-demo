@@ -543,3 +543,8 @@ body {
 .render a:hover {
     text-decoration: none;
 }
+
+a .render:focus {
+    outline: none;
+    border: 2px solid #F68A1E;
+}
