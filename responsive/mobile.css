@@ -251,6 +251,12 @@ ul li {
     margin-left: 0px;
 }
 
+/*center CTA*/
+.CTA a {
+    display: flex;
+    justify-content: center;
+}
+
 /*center OR*/
 .CTA .or {
     display: block;
