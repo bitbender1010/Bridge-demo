@@ -555,3 +555,16 @@ a .render:focus, a .render:active {
     outline: none;
     border: 2px solid #F68A1E;
 }
+
+.svg {
+    width: 30px;
+    height: auto;
+}
+
+.back-btn {
+    background-color: #007CFE!important;
+}
+
+#dateTime {
+    background: none;
+}

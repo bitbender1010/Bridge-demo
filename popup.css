@@ -270,10 +270,11 @@ input[type="radio"] {
 }
 
 .pop-cover {
-    width: 250px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     margin: 10vh auto;
     margin-bottom: 0px;
+    display: flex;
 }
 
 .next, #next-one {

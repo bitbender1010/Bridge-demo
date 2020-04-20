@@ -310,7 +310,7 @@ ul li {
 }
 
 .congrats-text {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     position: relative;
     top: 50px;
@@ -334,4 +334,14 @@ ul li {
 .hero-sub {
     font-size: calc(2vw + 10px);
     margin-bottom: 50px; 
+}
+
+.popup-img {
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+}
+
+#address, #dateTime, #price-input {
+    width: 90%;
 }
