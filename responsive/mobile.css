@@ -342,6 +342,6 @@ ul li {
     margin: 0px auto;
 }
 
-#address, #dateTime, #price-input {
+#address, #dateTime, #price__value {
     width: 90%;
 }

@@ -389,3 +389,9 @@ input {
 #address, #dateTime {
     font-size: 16px;
 }
+
+.popup-img {
+    width: 60%;
+    height: auto;
+    margin: 0px auto;
+}
