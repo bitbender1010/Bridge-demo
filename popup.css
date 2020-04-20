@@ -52,13 +52,15 @@
 }
 
 /*box input*/
-.box-input input {
+.box-input textarea {
     border: 2px solid #D1D1D1;
     width: 100%;
     height: 80px;
     margin: 0px auto;
     border-radius: 20px;
     outline: none;
+    font-size: 18px;
+    padding: 10px;
 }
 
 .price-input input {
@@ -69,6 +71,7 @@
     border-radius: 20px;
     outline: none;
     text-indent: 10px;
+    font-size: 18px;
 }
 
 #next, #back {
@@ -394,4 +397,10 @@ input {
     width: 60%;
     height: auto;
     margin: 0px auto;
+}
+
+/*on ckick*/
+.plus:focus, .plus:active, .plus:active {
+    border: none;
+    outline: none;
 }
