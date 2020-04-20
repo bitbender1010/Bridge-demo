@@ -31,9 +31,13 @@ ul {
     font-weight: bold;
 }
 
-ul li {
+.font-list {
     margin: 0px 10px;
     font-size: 18px;
+}
+
+ul li {
+    margin: 0px;
 }
 
 /*nav bg color*/
@@ -57,7 +61,7 @@ ul li {
 .hero-main {
     font-size: calc(3vw + 10px);
     font-weight: bold;
-    color: #007CFE;
+    color: white;
     width: 65%;
 }
 
@@ -74,6 +78,9 @@ ul li {
     min-height: 400px;
     /*background-color: violet;*/
     z-index: 0;
+    background: url('./images/banner.png') no-repeat center;
+    background-size: cover;
+    background-position: 80% 80%;
 }
 
 /*CTA*/
@@ -319,12 +326,12 @@ ul li {
 .faq-box {
     border: 2px solid lightgray;
     width: 40%;
-    height: 180px;
+    min-height: 180px;
     padding: 20px;
-    overflow: scroll;
+    /*overflow: scroll;
+    border: 2px solid red;*/
     box-shadow: 5px 5px 5px lightgray;
     margin: 20px 0px;
-    overflow-x: hidden;
 }
 
 .faq-question {
@@ -511,10 +518,10 @@ body {
 .render {
     width: 250px;
     height: 50px;
-    color: #F68A1E!important;
+    color: white!important;
     outline: none;
-    border: 2px solid #F68A1E;
-    background: white;
+    border: 2px solid white;
+    background: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -523,7 +530,7 @@ body {
 }
 
 .render a {
-    color: #F68A1E!important;
+    color: white!important;
 }
 
 .render img, .post img {
@@ -537,7 +544,7 @@ body {
     font-size: 20px;
     padding: 0px 20px;
     font-weight: bold;
-    color: #746F6B;
+    color: black;
 }
    
 .render a:hover {

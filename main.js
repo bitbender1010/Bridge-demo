@@ -24,12 +24,3 @@ function scrolldown() {
         behavior: 'smooth'
     });
 }
-
-/*growserf*/
-let accessLink = document.querySelector('#access');
-accessLink.addEventListener('click', redirect);
-
-function redirect() {
-    accessLink.setAttribute("href", "http://bit.ly/joinbridgetoday");
-    /*alert("acessed");*/
-}
