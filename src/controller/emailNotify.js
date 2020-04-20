@@ -64,16 +64,4 @@ function SendNotificationEmail(res, sender, subject, html){
     });
   }
   export default Controller;
-    // const locationOnline = document.getElementById('online').checked;
-    // const locationOffline = document.getElementById('radioMe').checked;
-    // const SenderEmailAddress = document.getElementById('address').value;
-    // const dateTime = document.getElementById('dateTime').value;
-    // const priceValue = document.getElementById('price__value').value;
     
-    // document.getElementById('next-one').addEventListener('click', ()=>{
-    //     const taskTitle = document.getElementById('task__title').value;
-    //     const details = document.getElementById('details').value;
-    //     if(!taskTitle || details) {
-    //       console.log('error dont allow the user to go')
-    //     }
-    // })
