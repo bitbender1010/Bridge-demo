@@ -177,7 +177,7 @@ ul li {
 }
 
 .resize-two {
-    width: calc(302px  - 104px);
+    width: calc(280px - 104px);
     height: calc(278px - 104);
 }
 
