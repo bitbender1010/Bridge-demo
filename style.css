@@ -20,6 +20,40 @@ body {
     height: 45px;
 }
 
+/*covid 19*/
+.covid {
+    width: 100%;
+    min-height: 50px;
+    background: #F68A1E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    padding: 5px 10px;
+    padding-right: 50px;
+}
+
+.covid-img {
+    width: 40px;
+    height: 40px;
+}
+
+/*plus*/
+.plus-min {
+    font-size: 50px;
+    font-weight: lighter;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: none;
+    outline: none;
+    border: none;
+    transform: rotate(45deg);
+    z-index: 1000000;
+    height: 20px;
+    width: 20px;
+}
+
 /*list item styles*/
 ul {
     display: flex;
