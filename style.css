@@ -192,7 +192,7 @@ ul li {
 
 /*step sub*/
 .step-sub {
-    width: 50%;
+    width: 60%;
     margin: 0px auto;
     text-align: center; 
 }
@@ -212,7 +212,7 @@ ul li {
 
 .resize-two {
     width: calc(280px - 104px);
-    height: calc(278px - 104);
+    height: calc(278px - 104px);
 }
 
 .resize-three {
