@@ -34,6 +34,9 @@
 /*center CTA*/
 .cta-cover {
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     justify-content: center;
 }
 
@@ -251,6 +254,9 @@ ul li {
 /*CTA*/
 .CTA {
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     flex-direction: column;
     margin-left: 0px;
 }
@@ -258,6 +264,9 @@ ul li {
 /*center CTA*/
 .CTA a {
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     justify-content: center;
 }
 
