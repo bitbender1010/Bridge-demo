@@ -452,6 +452,7 @@ ul li {
 body > div.nav-container > nav > div > ul > a > li {
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 body > div.nav-container > nav > div > ul > a {
     text-decoration: none;

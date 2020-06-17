@@ -241,7 +241,7 @@ ul li {
 }
 
 .cta-cover2 input,  .cta-cover2 button{
-    font-size: 14px;
+    font-size: 20px;
 }
 
 
@@ -367,7 +367,6 @@ ul li {
 }
 
 .popup-img {
-    width: 80%;
     height: auto;
     margin: 0px auto;
 }

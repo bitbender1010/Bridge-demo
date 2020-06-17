@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bridge - Sign Up</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="../../assests/bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./signup.css">
+    <title>Create account</title>
 </head>
+
 <body>
-    <div data-grsf-block-form></div>
+        <!-- modal starts V2-->
+        <div class="auth-modal-container" id="create-account-div">
+            <div class="top-form-design">
+                <p class="side-word">Create an account</p>
+            </div>
+    
+            <!-- ALERT STARTS -->
+        <!--DANGER-->
+        <!--
+            <div class="alert alert-danger" role="alert">
+                Incorrect username and password
+             </div> -->
+            <!-- ALERT ENDS -->
+    
+            <!-- login form starts -->
+            <form class="form" name="contact" method="POST" data-netlify="true" action="./thankyou.html" netlify>
+                <div class="form-group-container">
+                <div class="form-group">
+                        <label for="email" class="form-label signup-label-email">Email</label>
+                  <div class="form-input">
+                    <input name="email" type="email" class="form-input-signup create-acc-input form-control-input create-email" id="email">
+                    <span id="create-acc-email-error-span"></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                    <label for="Full Name" class="form-label form-input-signup signup-label-username ">Full Name</label>
+                    <div class="form-input">
+                        <input name="username" type="text" class="form-input-signup create-acc-input form-control-input create-username" id="username">
+                        <span id="create-acc-username-error-span"></span>
+                    </div>
+                  </div>
+                <div class="form-group">
+                    <label for="password" class="form-label signup-label-password">Password</label>
+                    <div class="form-input">
+                        <input name="password" type="password" class="form-input-signup create-acc-input form-control-input create-password" id="password">
+                        <span id="create-acc-password-error-span"></span>
+                    </div>
+                  </div>
+                  <!--what would you like to do?-->
+                  <div class="form-group">
+                    <div class="small-text"> What woud you like to use Bridge for? </div>
+                    <div class="small-text double-option">
+                    <div class="right-mag"> <input type="checkbox" name="Hire"> <div> Hire people to do jobs </div> </div>
+                    <div> <input type="checkbox" id="getjobs" name="Earn"> <div> Get jobs and make money </div> </div>
+                    </div>
+                  </div> <br>
+                  <!--services-->
+                  <div class="jobsNotify">
+                    <div class="typesOfJobs"> What types of jobs would you like to get notifications on? (e.g Office assistant, electrical or grocery shopping jobs) </div>
+                    <input type="text" class="form-input-signup create-acc-input form-control-input" name="Earn Details">
+                  </div>
+                  <!--end-->
+                </div>
+                <!-- <div class="orange-color small-text forgot-password-text"><a href="#">Forgot Password?</a></div> -->
+                <button class="btn-auth orange-color-bg" id="" type="submit">Create Account</button>
+            </form>
+            <!--This is not valid for Log-In-->
+           
+            <div class="small-text" style="margin: 6px; text-align: center;">
+              <p>By creating an account, I agree to Bridge's <span class="blue-bg">Terms & Conditions,</span> and <span class="blue-bg">Community Guildlines, Privacy Policy</span></p>
+            </div>
+        <!-- modal ends -->
+        </div>
+
+        <script src="./signup.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../../assests/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 </body>
+
 </html>
