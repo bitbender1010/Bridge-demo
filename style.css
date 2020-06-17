@@ -118,7 +118,7 @@ ul li {
 
 .herobar {
     padding-top: 20px;
-    padding-left: 5%;
+    padding-left: 15%;
     position: relative;
     width: 100%;
     min-height: 400px;
@@ -127,6 +127,10 @@ ul li {
     background: url('./images/banner.png') no-repeat center;
     background-size: cover;
     background-position: 80% 80%;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    position: relative;
+    left: -10vw;
 }
 
 /*CTA*/
@@ -145,8 +149,6 @@ ul li {
 
 /*access btn*/
 .access-btn, .access-btn2 {
-    height: 40px;
-    min-width: 15%;
     background-color: #F68A1E;
     color: white;
     font-weight: bold;
@@ -156,6 +158,12 @@ ul li {
     position: relative;
     left: -10px;
 }
+.access-btn2 {
+    min-width: 50%!important;
+    left: 0px;
+    border-radius: 10px!important;
+    height: 50px;
+ }
 
 .cta-cover, .cta-cover2 {
     margin-top: 50px;
@@ -551,7 +559,7 @@ body {
 }
 
 .cta-cover2 input,  .cta-cover2 button{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
@@ -577,6 +585,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 20px;
+    border-radius: 5px;
 }
 
 .render {
@@ -591,6 +600,7 @@ body {
     font-size: 20px;
     padding: 0px 10px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .render a {
