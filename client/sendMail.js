@@ -22,17 +22,44 @@ const signupBtn = document.getElementById("next-three").addEventListener('click'
     
         const responseForLocation = await fetch(`http://ip-api.com/json`, {
           method : "GET"
-        }).then(res => res.json())
-          .then(response => response)
-          .catch(e => e)
+        })
+        .then(res => res.json())
+        .then(response => response)
+        .catch(e => e)
 
-    const responseBody = {sender : SenderEmailAddress, 
-                        taskTitle : taskTitle,
-                        taskDetails: details, 
-                        senderlocation: `${responseForLocation["city"]}, ${responseForLocation["country"]} in ${responseForLocation["timezone"]}`, 
-                        location: location, 
-                        dateTime: dateTime,
-                        priceValue: priceValue };
+        const userCity = responseForLocation["city"];
+        const userCountry = responseForLocation["country"];
+        const userTimezone = responseForLocation["timezone"];
+      
+        const info = {
+          SenderEmailAddress,
+           taskTitle,
+           details,
+           userCity,
+           userCountry,
+            userTimezone,
+            location,
+            dateTime,
+            priceValue
+          }
+
+          // this is the function that would send info to the mail
+          if(responseForLocation){
+           return sendInfo(info)
+          }
+
+  
+});
+
+async function  sendInfo (info){
+  const responseBody = {sender : info.SenderEmailAddress, 
+    taskTitle : info.taskTitle,
+    taskDetails: info.details, 
+    senderlocation: `${info.userCity}, ${info.userCountry} in ${info.userTimezone}`, 
+    location: info.location, 
+    dateTime: info.dateTime,
+    priceValue: info.priceValue };
+
     const response  = await fetch(`https://bridge-email-api.herokuapp.com/api/message/send` , {
         method: "POST",
         body: JSON.stringify(responseBody),
@@ -46,7 +73,7 @@ const signupBtn = document.getElementById("next-three").addEventListener('click'
         if(response["status"] === 'success'){
              return congrats.style.display = 'block';
         }
-});
+}
 
     function goNextOne() {
         /*make current page fade & new ppae appear*/
