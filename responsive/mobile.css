@@ -18,9 +18,9 @@
     margin-top: 5%!important;
 }
 
-.hide-herotext {
+/* .hide-herotext {
     display: none;
-}
+} */
 /****************************************/
 /*hero btn*/
 .access-btn, .access-btn2 {
@@ -76,6 +76,7 @@
 
 /*flex wrap on mobile*/
 .three-cover {
+    display: flex;
     flex-wrap: wrap;
     padding: 0px 5%;
 }
@@ -89,7 +90,7 @@
 .how-sub {
     text-align: center;
     font-size: 18px;
-    width: 80%;
+    width: 95%;
     margin: 0px auto;
 }
 
@@ -268,6 +269,7 @@ ul li {
     display: -ms-flexbox;
     flex-direction: column;
     margin-left: 0px;
+    padding-bottom: 25vw;
 }
 
 /*center CTA*/
@@ -349,7 +351,7 @@ ul li {
 .hero-sub {
     color:white;
     font-size: calc(2vw + 15px)!important;
-    padding: 0px 20px
+    padding: 0px 5px
 }
 
 /*render: big bottom margin*/
